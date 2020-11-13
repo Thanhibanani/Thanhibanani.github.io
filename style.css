@@ -328,6 +328,7 @@ input[name='r'] {
 
 .container {
   padding: 0 16px;
+  height:250px
 }
 
 .container::after, .row::after {
