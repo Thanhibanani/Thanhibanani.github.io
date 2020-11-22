@@ -66,7 +66,7 @@ https://www.youtube.com/watch?v=8QKOaTYvYUA&feature=emb_logo&ab_channel=KevinPow
 
 .header li a:hover,
 .header .menu-btn:hover {
-  
+  color:#0088a9
 }
 
 .header .logo {
@@ -208,30 +208,6 @@ section:nth-child(1){
   min-height:600px;
   align-items: center;
   justify-content: center;
-
-}
-
-section:nth-child(2){
-  background-color:#344966;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 600px;
-  font-size: 30px;
-  font-weight:700;
-  width: auto;
-}
-
-.section2-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 600px;
-  font-size: 30px;
-  font-weight:700;
- border-radius:2%;
 
 }
 
