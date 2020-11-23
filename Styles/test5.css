@@ -1,27 +1,5 @@
 
 
-.titleContact {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    text-align: center;
-    justify-self: start;
-    align-self: end;
-
-    background-color: transparent;
-    margin-left: 25px;
-    
-}
-
-.titleContact h1 {
-    color: white;
-    font-size: 2em;
-    font-weight: 700;
-    margin: 0;
-    
-}
 .container{
     grid-area:Content;
   
@@ -44,7 +22,9 @@
   }
   
   .company-info{
-    background:#BCEBCB; /*#87D68D eller denne?*/
+    background-color: #c33c54;
+    font-size:1.5em;
+  
       border-radius: 5px 5px 0 0;
   }
   
