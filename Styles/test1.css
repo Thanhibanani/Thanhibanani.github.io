@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+/*Index 1*/
+.h1-container{
+    grid-area: Content;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color:#c33c54;
+    
+    font-size: 2em;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  section{
+    margin-top: 20vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  section p{
+    font-family:sans-serif;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:1em;
+    text-align: center;
+    line-height: 1.2em;
+  }
+
+  .section2-container p{
+    font-size:1.5em;
+    text-align: center;
+    line-height: 1.2em;
+    margin:50px;
+    width:650;
+  }
+  
+  
+
+  .section2-container h1 {
+    font-size:60px;
+  text-align:center;
+  color:#c33c54;
+  }
+  
+  
+  
+  .Paragraphs {
+    font-family: sans-serif;
+    font-size:1em;
+    text-align: center;
+    line-height: 1.2em;
+    
+  }
+  .Image{
+    border-radius: 2%;
+    margin-bottom:2%;
+  }
+  

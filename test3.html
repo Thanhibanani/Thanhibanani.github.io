@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/test3.css">
+    <link rel="stylesheet" href="Styles/testheader.css">
     <link rel="stylesheet" href="Styles/Footer.css">
     <title>Document</title>
 </head>
@@ -13,35 +13,38 @@
     <div class="grid-container">
         <div class="Header">
         
-     <!--Header starts here-->
-     <div class="grid-container">
-        <div class="Header">
-            <header class="header">
-                <a href="test1.html" class="logo">Logo</a>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-                <ul class="menu">
-                    <div class="items">
-                    <li><a href="test2.html">Product</a></li>
-                    <li><a href="test3.html">About us</a></li>
-                    <li><a href="test4.html">Product launch</a></li>
-                    <li><a href="test5.html">Contact</a></li>
-                    
-                </div>
-                    </div>
-                </ul>
-            </header>
-        </div>
-            </div>
+            <header>
+                <a href="test1.html" class="logo"><img src="Bilder/Logo.png" alt="" style="width:15em;height:15vh;"  ></a>
+                <input type="checkbox" id="nav-toggle"
+                       class="nav-toggle">
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <a  href="test2.html">Product</a>
+                        </li>
+                        <li>
+                            <a class="active"  href="test3.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="test4.html">Launch</a>
+                        </li>
+                        <li>
+                            <a href="test5.html">Contact </a>
+                        </li>
         
-            <!--Header ends here-->
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                </label>
+            </header>
 
         <div class="Content">
         <div class="Footer"></div>
+<div class="about-section">
         <h1 class="h1-container">
             About us</h1>
-<div class="about-section">
-  <p class="Paragraphs">Our new innovative startup Chameleon Clothing seeks to better the world through environmentally friendly solutions using cutting edge technology.<br> We fundamentally seek to change the way ecological innovation is done. </p>
+  <p>Our new innovative startup Chameleon Clothing seeks to better the world through environmentally friendly solutions using cutting edge technology.<br> We fundamentally seek to change the way ecological innovation is done. </p>
 </div>
 
 <h2 class="h1-container">Our Team</h2>
@@ -54,8 +57,7 @@
         <h2>Christoffer Gård</h2>
         <p class="title">CIO (Chief Innovation Officer) </p>
         <p class="CardText">I am interested in the intersection between technology and business, especially how technology can create sustainability and value for companies. This interest has influenced my work, where I involved myself deeply in how people use technology in their everyday life. Through guiding customers on their journey to become technologically literate in an ever-changing landscape I have firsthand experience with the value technology can provide. My experiences with humans and technology further influenced my choice of master thesis, where I wrote about how leaders can influence followers’ mindset and self-efficacy. Seeing that digitization processes can be difficult for many, one has to start with the mindset of the individual and their approach to learning and personal growth.</p>
-        <p class="CardMail">chga2502@hotmail.com</p>
-        <p><button class="button">Contact</button></p>
+    
       </div>
     </div>
   </div>
@@ -67,8 +69,7 @@
         <h2>Ola Sandberg Iversen</h2>
         <p class="title">CMO - Chief Marketing Officer</p>
         <p class="CardText">Technology is like magic, it brings screens alive and makes us able to have a conversation with someone halfway around the globe. Except it isn’t magic. It’s man made, and has the potential to better the lives of humans worldwide. I want to be able to create “magic”, to innovate and bring positive change, to develop technology and solutions that contribute to better the standard of living for people. Through my work in medical care, I have seen what technology can mean for people with difficulties in their lives, and this is what motivates me for working in this field.</p>
-        <p class="CardMail">olaiversen93@gmail.com</p>
-        <p><button class="button">Contact</button></p>
+        
       </div>
     </div>
   </div>
@@ -80,8 +81,7 @@
           <h2>Petter Sundh</h2>
           <p class="title">CPO (Chief Prototyping Officer)</p>
           <p class="CardText">At the intersect between technology and design, where form meets function is where I find myself at home. In my work I will aim to deliver long lasting, intuitive products that give their user a sense of value and utility. It is my belief that how to use an object should be told to the user through an object's design, guiding them intuitively through the steps in a process of discovery.</p>
-          <p class="CardMail">Petter258@gmail.com</p>
-          <p><button class="button">Contact</button></p>
+         
         </div>
       </div>
     </div>
@@ -96,8 +96,7 @@
         <p class="title">CTO (Chief Technology Officer)</p>
         <p class="CardText">I am interested in how technology affects us and how we use technology. I especially love exploring new ways to use and create technology. I have a good interest in how we can develop the technology so that it can help people. I love to think creatively, and think outside the box. I would like to bring my creativity through creating new technology or developing something that already exists.
         </p>
-        <p class="CardMail">Thanhnguyen200107@gmail.com</p>
-        <p><button class="button">Contact</button></p>
+      
       </div>
     </div>
   </div>
@@ -113,28 +112,28 @@
 </div>
 </div>
 
-<footer class="footer">
-
-    <div class="contactFooter">
-        <p> <strong>Contact:</strong> </p>
-        <p>+47 22 22 55 55</p>
-        <p>Contact@ChameleonClothing.com</p>
-        <p><strong>Fonts:</strong> <br>
-            <a href="https://fonts.googleapis.com/css?family=Montserrat:500">Google fonts - Monteserrat</a> </p>
-            <p><strong>Icons:</strong> <br>
-            <a href="https://fontawesome.com/icons?d=gallery">Font Awesome - Font Icons</a></p>
-    </div>  
-    <div class="createdBy">
-      <p> <strong>Created by:</strong> <br>
-          Christoffer Gård (s354591) <br> 
-          Petter Sundh (s356095) <br>
-          Ola Sandberg Iversen (s354577)<br>
-          Thanh Nguyen (s354587) <br>
-          </p>
-      
-  </div>  
-
-</footer>   
+<div class="Footer">
+    <footer class="footer">
+    
+        <div class="contactFooter">
+            <p> <strong>Contact:</strong> </p>
+            <p>+47 22 22 55 55</p>
+            <p>Contact@ChameleonClothing.com</p>
+            <p><strong>Fonts:</strong> <br>
+                <a href="https://fonts.googleapis.com/css?family=Montserrat:500">Google fonts - Monteserrat</a> </p>
+                <p><strong>Icons:</strong> <br>
+                <a href="https://fontawesome.com/icons?d=gallery">Font Awesome - Font Icons</a></p>
+        </div>  
+        <div class="createdBy">
+          <p> <strong>Created by:</strong> <br>
+              Christoffer Gård (s354591) <br> 
+              Petter Sundh (s356095) <br>
+              Ola Sandberg Iversen (s354577)<br>
+              Thanh Nguyen (s354587) <br>
+              </p>
+          
+      </div>  
+     
 
 
 

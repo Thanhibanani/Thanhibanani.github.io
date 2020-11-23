@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/test2.css">
-    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/testheader.css">
     <link rel="stylesheet" href="Styles/Footer.css">
     <title>Document</title>
 </head>
@@ -13,28 +13,31 @@
     <div class="grid-container">
         <div class="Header">
         
-     <!--Header starts here-->
-     <div class="grid-container">
-        <div class="Header">
-            <header class="header">
-                <a href="test1.html" class="logo">Logo</a>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-                <ul class="menu">
-                    <div class="items">
-                    <li><a href="test2.html">Product</a></li>
-                    <li><a href="test3.html">About us</a></li>
-                    <li><a href="test4.html">Product launch</a></li>
-                    <li><a href="test5.html">Contact</a></li>
-                    
-                </div>
-                    </div>
-                </ul>
-            </header>
-        </div>
-            </div>
+            <header>
+                <a href="test1.html" class="logo"><img src="Bilder/Logo.png" alt="" style="width:15em;height:15vh;"  ></a>
+                <input type="checkbox" id="nav-toggle"
+                       class="nav-toggle">
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <a class="active" href="test2.html">Product</a>
+                        </li>
+                        <li>
+                            <a href="test3.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="test4.html">Launch</a>
+                        </li>
+                        <li>
+                            <a href="test5.html">Contact </a>
+                        </li>
         
-            <!--Header ends here-->
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                </label>
+            </header>
 
         <div class="Content">
         <div class="Footer"></div>
@@ -93,6 +96,7 @@
 </div>
 </div>
 
+<div class="Footer">
 <footer class="footer">
 
     <div class="contactFooter">
@@ -114,7 +118,6 @@
       
   </div>  
 
-</footer>   
 
 
 
