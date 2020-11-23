@@ -184,7 +184,7 @@ https://www.youtube.com/watch?v=8QKOaTYvYUA&feature=emb_logo&ab_channel=KevinPow
   grid-column-end: 3;
   color:#c33c54;
   
-  font-size: 60px;
+  font-size: 1.6em;
   padding:10px;
   align-items: center;
   justify-content: center;
@@ -209,17 +209,11 @@ text-align: center;
 color:#c33c54;
 }
 
-section:nth-child(1){
-  background-color:#FFF;
-  min-height:600px;
-  align-items: center;
-  justify-content: center;
 
-}
 
 .Paragraphs {
   font-family: sans-serif;
-  font-size:1.5em;
+  font-size:1em;
   text-align: center;
   line-height: 1.2em;
   
