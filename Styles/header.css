@@ -1,15 +1,21 @@
 
 /* here starts header */
 
+
+:root {
+  --background:#254E70;
+
+}
+
 .header {
     grid-area: Header;
     top:0;
     margin:0;
-    background-color: #254E70;
+    background:var(--background);
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: absolute;
     width: 100%;
-    z-index: 3;
+    z-index: 999;
   }
   
   .header ul {

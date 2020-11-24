@@ -21,7 +21,7 @@
 
 
 :root {
-    --background: #2d2d2a;
+    --background: #254E70;
 }
 
 *, *::before, *::after {
@@ -41,7 +41,7 @@ body {
 header {
 
     background: var(--background);
-    height:15vh;
+    height:14vh;
     text-align: center;
     position: fixed;
     z-index: 999;
@@ -53,6 +53,7 @@ header {
     position: absolute !important;
     top: -9999px !important;
     left: -9999px !important;
+    margin-top: 30px;
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
@@ -110,11 +111,14 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 nav li {
     margin-bottom: 1em;
     margin-left: 1em;
+
+  
 }
 
 nav a {
@@ -127,11 +131,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #254e70;
+    color: #c33c54;
 }
 
 nav a.active{
-    color: #A4C3B2;
+    color: #c33c54;
 }
 
 .nav-toggle:checked ~ nav {
